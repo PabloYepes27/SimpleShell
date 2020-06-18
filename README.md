@@ -53,60 +53,99 @@ valgrind --leak-check=full --show-leak-kinds=all ./executable_name
 ```
 ---
 
-### [0. Bubble sort](./0-bubble_sort.c)
-* Write a function that sorts an array of integers in ascending order using the Bubble sort algorithm
+### [0. README, man, AUTHORS ](./hsh.c)
+* Write a README, Write a man for your shell. You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. 
 
 
-### [1. Insertion sort](./1-insertion_sort_list.c)
-* Write a function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
+### [1. Betty would be proud](./hsh.c)
+* Write a beautiful code that passes the Betty checks
 
 
-### [2. Selection sort](./2-selection_sort.c)
-* Write a function that sorts an array of integers in ascending order using the Selection sort algorithm
+### [2. Simple shell 0.1](./hsh.c)
+* Write a UNIX command line interpreter
 
 
-### [3. Quick sort](./3-quick_sort.c)
-* Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
+### [3. Simple shell 0.2](./hsh.c)
+* Handle command lines with arguments
 
 
-### [4. Shell sort - Knuth Sequence](./100-shell_sort.c)
-* Write a function that sorts an array of integers in ascending order using the Shell sort algorithm, using the Knuth sequence
+### [4. Simple shell 0.3](./hsh.c)
+* Handle the PATH
 
 
-### [5. Cocktail shaker sort](./101-cocktail_sort_list.c)
-* Write a function that sorts a doubly linked list of integers in ascending order using the Cocktail shaker sort algorithm
+### [5. Simple shell 0.4](./hsh.c)
+* Implement the exit built-in, that exits the shell
 
 
-### [6. Counting sort](./102-counting_sort.c)
-* Write a function that sorts an array of integers in ascending order using the Counting sort algorithm
+### [6. Simple shell 1.0](./hsh.c)
+* Implement the env built-in, that prints the current environment
 
 
-### [7. Merge sort](./103-merge_sort.c)
-* Write a function that sorts an array of integers in ascending order using the Merge sort algorithm
+### [7. What happens when you type ls -l in the shell](./hsh.c)
+* Write a blog post describing step by step what happens when you type ls -l
 
 
-### [8. Heap sort ](./104-heap_sort.c)
-* Write a function that sorts an array of integers in ascending order using the Heap sort algorithm
+### [8. Test suite](./hsh.c)
+* Contribute to a test suite for your shell.
 
 
-### [9. Radix sort](./105-radix_sort.c)
-* Write a function that sorts an array of integers in ascending order using the Radix sort algorithm
+### [9. Simple shell 0.1.1](./hsh.c)
+* Write your own getline function
 
 
-### [10. Bitonic sort](./106-bitonic_sort.c)
-* Write a function that sorts an array of integers in ascending order using the Bitonic sort algorithm
+### [10. Simple shell 0.2.1 ](./hsh.c)
+* You are not allowed to use strtok
 
 
-### [11. Quick Sort - Hoare Partition scheme](./107-quick_sort_hoare.c)
-* Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
+### [11. Simple shell 0.4.1](./hsh.c)
+* handle arguments for the built-in exit
 
 
-### [12. Dealer](./1000-sort_deck.c)
-* Write a function that sorts a deck of cards.
+### [12. Simple shell 0.4.2](./hsh.c)
+* Handle Ctrl+C: your shell should not quit when the user inputs ^C
 
+
+### [13. setenv, unsetenv](./hsh.c)
+* Implement the setenv and unsetenv builtin commands
+
+
+### [14. cd](./hsh.c)
+* Implement the builtin command cd
+
+
+### [15. ;](./hsh.c)
+* Handle the commands separator ;
+
+
+### [16. && and ||](./hsh.c)
+* Handle the && and || shell logical operators
+
+
+### [17. alias](./hsh.c)
+* Implement the alias builtin command
+
+
+### [18. variables](./hsh.c)
+* Handle variables replacement - Handle the $? variable - Handle the $$ variable
+
+
+### [19. comments](./hsh.c)
+* Handle comments (#)
+
+
+### [20. help](./hsh.c)
+* Implement the help built-in
+
+
+### [21. history](./hsh.c)
+* Implement the history built-in, without any argument
+
+
+### [22. File as input](./hsh.c)
+* Your shell can take a file as a command line argument
 ---
 
-## Author
+## Author:black_nib:
 * **Juan Pablo Yepes Tamayo**
  - [GitHub](https://github.com/PabloYepes27)
  - [Linkedin](https://www.linkedin.com/in/pablo-yepes-120495)
