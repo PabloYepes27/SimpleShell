@@ -29,23 +29,28 @@ What you should learn from this project:
 
 ---
 
-## Instalation:tool:
+## Instalation:wrench:
 Follow the following instructions to get a copy of the program and run in your local machine.
 
 * Clone the following repository.
-´´´
+```
 https://github.com/PabloYepes27/SimpleShell.git
-´´´
+```
 
 * Compile it with GCC
+```
 gcc -Wall -Werror -Wextra -pedantic -g *.c -o hsh
+```
 
 * Run the program
+```
 ./hsh
+```
 
 * Run with debugger
+```
 valgrind --leak-check=full --show-leak-kinds=all ./executable_name
-
+```
 ---
 
 ### [0. Bubble sort](./0-bubble_sort.c)
